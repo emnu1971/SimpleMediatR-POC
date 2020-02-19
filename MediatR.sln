@@ -15,11 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatR.Logic", "MediatR\Me
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatR.Api", "MediatR\MediatR.Api\MediatR.Api.csproj", "{524BA4D0-D1C8-4A8A-A4AE-C0FDB4F39A70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatR.Domain", "MediatR\MediatR.Domain\MediatR.Domain.csproj", "{D27A3894-D71C-4875-9568-A7B9973B1366}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatR.Domain", "MediatR\MediatR.Domain\MediatR.Domain.csproj", "{D27A3894-D71C-4875-9568-A7B9973B1366}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatR.Dto", "MediatR\MediatR.Dto\MediatR.Dto.csproj", "{6B738B32-E0AA-4D11-91AC-E00ABC541B40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatR.Dto", "MediatR\MediatR.Dto\MediatR.Dto.csproj", "{6B738B32-E0AA-4D11-91AC-E00ABC541B40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatR.Domain.Core", "MediatR\MediatR.Domain.Core\MediatR.Domain.Core.csproj", "{EFAD22B7-2D6F-4B41-8DE7-66ED0D83AF4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatR.Domain.Core", "MediatR\MediatR.Domain.Core\MediatR.Domain.Core.csproj", "{EFAD22B7-2D6F-4B41-8DE7-66ED0D83AF4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E5C85834-BE56-4563-A7A4-08678347944C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,8 +62,10 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{939A4497-3223-488E-9CAB-0D14C39A388E} = {E5C85834-BE56-4563-A7A4-08678347944C}
 		{D7E3651D-2661-4563-846E-B8DCC12359C1} = {939A4497-3223-488E-9CAB-0D14C39A388E}
 		{515AFB56-8435-430D-80A4-DF8AFA9AC607} = {939A4497-3223-488E-9CAB-0D14C39A388E}
+		{828304C5-A2CC-42B4-8E23-35274EE35F38} = {E5C85834-BE56-4563-A7A4-08678347944C}
 		{36C43EC3-915E-4A95-89CA-49EB88A8D953} = {828304C5-A2CC-42B4-8E23-35274EE35F38}
 		{524BA4D0-D1C8-4A8A-A4AE-C0FDB4F39A70} = {828304C5-A2CC-42B4-8E23-35274EE35F38}
 		{D27A3894-D71C-4875-9568-A7B9973B1366} = {828304C5-A2CC-42B4-8E23-35274EE35F38}
@@ -70,39 +74,5 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C14CDCF3-BCDA-4206-83C6-4CEF93185BCB}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 8
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://emmanuelnuyttens.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = RollYourOwn\\Mediator.Logic\\Mediator.Logic.csproj
-		SccProjectTopLevelParentUniqueName1 = MediatR.sln
-		SccProjectName1 = RollYourOwn/Mediator.Logic
-		SccLocalPath1 = RollYourOwn\\Mediator.Logic
-		SccProjectUniqueName2 = RollYourOwn\\CustomMediator.API\\CustomMediator.API.csproj
-		SccProjectTopLevelParentUniqueName2 = MediatR.sln
-		SccProjectName2 = RollYourOwn/CustomMediator.API
-		SccLocalPath2 = RollYourOwn\\CustomMediator.API
-		SccProjectUniqueName3 = MediatR\\MediatR.Logic\\MediatR.Logic.csproj
-		SccProjectTopLevelParentUniqueName3 = MediatR.sln
-		SccProjectName3 = MediatR/MediatR.Logic
-		SccLocalPath3 = MediatR\\MediatR.Logic
-		SccProjectUniqueName4 = MediatR\\MediatR.Api\\MediatR.Api.csproj
-		SccProjectTopLevelParentUniqueName4 = MediatR.sln
-		SccProjectName4 = MediatR/MediatR.Api
-		SccLocalPath4 = MediatR\\MediatR.Api
-		SccProjectUniqueName5 = MediatR\\MediatR.Domain\\MediatR.Domain.csproj
-		SccProjectTopLevelParentUniqueName5 = MediatR.sln
-		SccProjectName5 = MediatR/MediatR.Domain
-		SccLocalPath5 = MediatR\\MediatR.Domain
-		SccProjectUniqueName6 = MediatR\\MediatR.Dto\\MediatR.Dto.csproj
-		SccProjectTopLevelParentUniqueName6 = MediatR.sln
-		SccProjectName6 = MediatR/MediatR.Dto
-		SccLocalPath6 = MediatR\\MediatR.Dto
-		SccProjectUniqueName7 = MediatR\\MediatR.Domain.Core\\MediatR.Domain.Core.csproj
-		SccProjectTopLevelParentUniqueName7 = MediatR.sln
-		SccProjectName7 = MediatR/MediatR.Domain.Core
-		SccLocalPath7 = MediatR\\MediatR.Domain.Core
 	EndGlobalSection
 EndGlobal
